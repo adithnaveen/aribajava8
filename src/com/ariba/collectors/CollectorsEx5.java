@@ -39,6 +39,7 @@ public class CollectorsEx5 {
 		
 		System.out.println("--------------------------------------");
 		
+		// since it it collected as set it will only maintain the unique entries but we need to override equals / hashcode 
 		Map<BigDecimal, Set<Product>> groupByPriceMap1 = 
 				list.stream()
 				.collect(Collectors.groupingBy(Product::getPrice, Collectors.toSet()));
