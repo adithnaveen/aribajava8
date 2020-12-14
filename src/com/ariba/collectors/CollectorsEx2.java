@@ -2,6 +2,8 @@ package com.ariba.collectors;
 
 import java.util.Arrays;
 
+// program to covert int to double in a two dimentional array 
+
 public class CollectorsEx2 {
 	public static void main(String[] args) {
 		Number[][] myArray = new Integer [][] {
